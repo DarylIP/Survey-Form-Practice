@@ -1,0 +1,62 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: darkmagenta;
+  color: #c7beb3;
+  font-family: Tahoma;
+  font-size: 16px;
+}
+
+h1,
+p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  background-color: rgb(49, 45, 45);
+  padding-bottom: 2em;
+  border-radius: 0.3rem;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+/* to align the checkboxes and radio */
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 95%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.2rem;
+  background-color: green;
+  border-color: green;
+  min-width: 300px;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+fieldset {
+  border: none;
+}
